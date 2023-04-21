@@ -1,0 +1,19 @@
+
+let numero1 = prompt("Ingrese número 1: ");
+let numero2 = prompt("Ingrese número 2: ");
+let numero3 = prompt("Ingrese número 3: ");
+let numero4 = prompt("Ingrese número 4: ");
+let numero5 = prompt("Ingrese número 5: ");
+
+let n1 = parseInt(numero1);
+let n2 = parseInt(numero2);
+let n3 = parseInt(numero3);
+let n4 = parseInt(numero4);
+let n5 = parseInt(numero5);
+
+let suma = n1 + n2 + n3 + n4 + n5;
+let promedio = suma / 5;
+
+document.write("Los números " + n1 + " ," + n2 + " ," + n3 + " ," + n4 + " ," + n5 + " .");
+document.write("La suma de todos los números es: " + suma + " .");
+document.write("El promedio es: " + promedio);
