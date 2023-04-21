@@ -20,6 +20,6 @@ let promedio = suma / 5;
 
 
 // Se imprime en la pantalla
-document.write("Los números ingresados " + n1 + " ," + n2 + " ," + n3 + " ," + n4 + " ," + n5 + " .");
-document.write("La suma de todos los números es: " + suma + " .");
-document.write("El promedio es: " + promedio);
+document.write("<p> Los números ingresados " + n1 + ", " + n2 + ", " + n3 + ", " + n4 + " y " + n5 + " . </p>");
+document.write("<p> La suma de todos los números es: " + suma + " .</p>");
+document.write("<p> El promedio es: " + promedio + "</p>");

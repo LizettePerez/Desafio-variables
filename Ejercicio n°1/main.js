@@ -16,9 +16,9 @@ let modulo = n1 % n2;
 
 
 // Se imprime en la pantalla
-document.write("Número 1: " + n1 + " Número 2: " + n2 + " ");
-document.write("La suma es " + suma + " ");
-document.write("La resta es " + resta + " ");
-document.write("La division es " + division + " ");
-document.write("La multiplicacion es " + multiplicacion + " ");
-document.write("La modulo es " + modulo);
+document.write("<p>Número 1: " + n1 + " Número 2: " + n2 + " </p>");
+document.write("<p>La suma es " + suma + " </p>");
+document.write("<p>La resta es " + resta + " </p>");
+document.write("<p>La division es " + division + " </p>");
+document.write("<p>La multiplicacion es " + multiplicacion + " </p>");
+document.write("<p>La modulo es " + modulo + " </p>");

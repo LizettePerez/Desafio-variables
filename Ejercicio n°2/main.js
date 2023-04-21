@@ -11,8 +11,8 @@ let tempFahr = (n1 * 9/5) + 32;
 
 
 // Imprimir resultados en pantalla
-document.write("La temperatura " + n1 + " en °C, equivale: ")
-document.write("La temperatura en Kelvin es  " + tempKelv + "K. ");
-document.write("La temperatura en Fahrenheit es  " + tempFahr + "°F.");
+document.write("<p>La temperatura " + n1 + " en °C, equivale: </p>")
+document.write("<p>En Kelvin es  " + tempKelv + " K. </p>");
+document.write("<p>En Fahrenheit es  " + tempFahr + "°F.</p>");
 
 

@@ -14,6 +14,6 @@ let modSema = semanas % 7;
 let dias = modSema;
 
 // Se imprimer en pantalla
-document.write("El número ingresado " + n1 + " representa: ")
-document.write(anio + " año(s), " + semanas + " semanas, " + dias + " días.");
+document.write("<p>El número ingresado " + n1 + " representa: </p>")
+document.write("<p>" + anio + " año(s), " + semanas + " semanas, " + dias + " días.</p>");
 
